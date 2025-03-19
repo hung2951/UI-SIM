@@ -102,7 +102,7 @@ function App() {
               <a href="#">
                 <div className="flex items-center space-x-1 cursor-pointer">
                   <Home size={20} />
-                  <span className="font-semibold">Snoop.pi</span>
+                  <span className="font-semibold">Trang chủ</span>
                 </div>
               </a>
 
@@ -129,17 +129,17 @@ function App() {
                     {/* Danh sách menu */}
                     <ul className="space-y-3 mt-4">
                       <a href="#box1">
-                        <li className="bg-[#00a277] text-white text-center py-2 rounded-full font-semibold cursor-pointer my-2">
+                        <li className="hover:bg-orange-500 transition-all hover:scale-90 bg-[#00a277] text-white text-center py-2 rounded-full font-semibold cursor-pointer my-2">
                           Sim SB mua đứt
                         </li>
                       </a>
                       <a href="#box2">
-                        <li className="bg-[#00a277] text-white text-center py-2 rounded-full font-bold cursor-pointer my-2">
+                        <li className="hover:bg-orange-500 transition-all hover:scale-90 bg-[#00a277] text-white text-center py-2 rounded-full font-bold cursor-pointer my-2">
                           SIM SB đóng cước
                         </li>
                       </a>
                       <a href="#box3">
-                        <li className="bg-[#00a277] text-white text-center py-2 rounded-full font-semibold cursor-pointer my-2">
+                        <li className="hover:bg-orange-500 transition-all hover:scale-90 bg-[#00a277] text-white text-center py-2 rounded-full font-semibold cursor-pointer my-2">
                           Sim Docomo
                         </li>
                       </a>
@@ -521,7 +521,7 @@ function App() {
         <div className="w-[1220px] max-sm:w-full mx-auto max-sm:px-3">
           <div className="leading-8 border-b border-black pb-5 ">
             <h2 className="font-bold text-xl my-5">Duongbkt</h2>
-            <p>© Bản quyền thuộc công ty cổ phần Snoop.pi</p>
+            <p>© Bản quyền thuộc công ty cổ phần Dương Gió Tai</p>
             <p>
               Giấy phép số A-02-18231 do Cục Viễn thông Kanto cấp ngày
               05/11/2020
